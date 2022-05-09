@@ -74,12 +74,11 @@ allRebelUniforms append ["U_IG_Guerilla1_1","U_IG_Guerilla2_1","U_IG_Guerilla2_2
 "rhs_insurgent_uniform_2","rhs_insurgent_uniform_3","rhs_insurgent_uniform_4","rhs_insurgent_uniform_5"];
 
 private _initialRebelEquipment = [
-"rhs_weap_type94_new","rhs_weap_tt33","rhs_weap_Izh18","rhs_weap_kar98k",
-"rhs_weap_rpg75",
-"rhs_mag_6x8mm_mhp","rhs_mag_762x25_8","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_Slug","rhsgref_5Rnd_792x57_kar98k","rhs_grenade_mkii_mag","rhs_grenade_mki_mag","rhs_mag_rdg2_black","rhs_grenade_m15_mag",
-"B_FieldPack_blk","B_FieldPack_cbr","B_FieldPack_green_F","B_FieldPack_khk","B_FieldPack_oli",
-"rhsgref_chestrig","rhsgref_chicom","rhs_vydra_3m","rhs_vest_pistol_holster","rhs_vest_commander","rhs_6sh46","rhsgref_alice_webbing",
-"rhs_acc_2dpZenit","Binocular"];
+"rhs_weap_savz61_folded","rhs_weap_tt33","rhs_weap_makarov_pm","rhs_weap_m70b3n","rhs_weap_m76","rhs_weap_m21a","rhs_weap_m21a_pr","rhs_weap_m21s","rhs_weap_m21s_pr","rhs_weap_m80", "rhsgref_20rnd_765x17_vz61","rhs_mag_762x25_8","rhs_mag_9x18_8_57N181S","rhssaf_30Rnd_762x39mm_M67",
+"rhssaf_30Rnd_762x39mm_M78_tracer","rhssaf_30Rnd_762x39_M82_api","rhsgref_10Rnd_792x57_m76","rhssaf_10Rnd_792x57_m76_tracer","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21_t","rhs_grenade_mkii_mag","rhs_grenade_mki_mag","rhs_mag_rdg2_black","rhs_grenade_m15_mag","B_FieldPack_blk",
+"B_FieldPack_cbr","B_FieldPack_green_F","B_FieldPack_khk","B_FieldPack_oli","rhsgref_chestrig","rhsgref_chicom","rhsgref_chicom_khk","rhs_vydra_3m","rhsgref_alice_webbing","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli","V_TacVest_blk","rhs_acc_2dpZenit","rhs_acc_1p29","rhs_acc_1p78",
+"rhs_acc_pso1m2","rhs_acc_pkas","rhs_acc_perst1ik","rhs_acc_dtk1l","rhs_acc_dtk","Binocular","ItemRadio","I_UavTerminal"];
+
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","tf_anprc154"]};
 if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment pushBack "tf_anprc155_coyote"};
 if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","TFAR_anprc154"]};
