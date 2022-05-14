@@ -48,11 +48,71 @@ private _makeUnconscious =
 	params ["_unit", "_injurer"];
 	_unit setVariable ["incapacitated",true,true];
 	_unit setUnconscious true;
+	_unit allowDamage false;
 	if (vehicle _unit != _unit) then
 	{
 		moveOut _unit;
 	};
-	if (isPlayer _unit) then {_unit allowDamage false};
+	
+	if (isPlayer _unit) then {
+		// Func. Trying to switch command to most appropriete remain unit.
+		private _switchToNextMostApproprieteUnit = {
+			params ["_unit_group", "_group_owner"];
+			
+			if ((count _unit_group) > 0) then {
+				private _medic_not_switched = true;
+			
+				// attempt switch control to medic
+				{
+					if (([_x] call A3A_fnc_isMedic) && ([_x] call A3A_fnc_canFight)) exitWith {
+						selectPlayer _x;
+						_unit_group joinsilent group _x;
+						group _x selectLeader _x;
+						_medic_not_switched = false;
+						["Control Unit", "Control switched to medic."] call A3A_fnc_customHint;
+					};
+				} forEach _unit_group;
+				
+				// attempt switch control to healthiest unit
+				if (_medic_not_switched) then {
+					private _healthiestUnit = [_unit_group, [], { getDammage _x }, "ASCEND"] call BIS_fnc_sortBy;
+					_healthiestUnit = _healthiestUnit select 0;
+					
+					if ([_healthiestUnit] call A3A_fnc_canFight) then {
+						selectPlayer _healthiestUnit;
+						_unit_group joinsilent group _healthiestUnit;
+						group _healthiestUnit selectLeader _healthiestUnit;
+						["Control Unit", "Control switched to healthiest unit."] call A3A_fnc_customHint;
+					} else {
+						selectPlayer _group_owner;
+						[_group_owner] spawn A3A_fnc_respawn;
+					};
+				};
+			};
+		};
+
+		removeAllActions _unit;
+		private _unit_owner = (_unit getVariable "owner");
+		private _player_group_units = (units group _unit);
+		
+		// player had control over subordinate unit. Trying to return control to squad leader 
+		// or switching command to the next healthiest unit, if commander can't fight
+		if (!isPlayer _unit_owner) then {
+			// commander can fight
+			if ([_unit_owner] call A3A_fnc_canFight) then {
+				selectPlayer _unit_owner;
+				(units group _unit) joinsilent group _unit_owner;
+				group _unit_owner selectLeader _unit_owner;
+				["Control Unit", "Control returned to squad leader."] call A3A_fnc_customHint;
+			} else {
+				[_player_group_units, _unit_owner] call _switchToNextMostApproprieteUnit;
+			}
+		// player played as a squad leader until it was shoot. Trying to switch command to most appropriete remain unit.
+		} else {
+			[_player_group_units, _unit_owner] call _switchToNextMostApproprieteUnit;
+		};
+	};
+	
 	private _fromside = if (!isNull _injurer) then {side group _injurer} else {sideUnknown};
 	[_unit,_fromside] spawn A3A_fnc_unconscious;
 };

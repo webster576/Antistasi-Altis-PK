@@ -679,9 +679,45 @@
         <Chinesesimp>军用载具</Chinesesimp>
         <Korean>군 차량</Korean>
       </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_air_vehicles">
+        <Original>Air vehicles</Original>
+        <Russian>ВВС</Russian>
+      </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_text">
         <Original>Military Support</Original>
         <Russian>Снабжение</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_hospital">
+        <Original>Field hospital</Original>
+        <Russian>Полевой госпиталь</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_truck">
+        <Original>Truck</Original>
+        <Russian>Грузовик</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_medium_truck">
+        <Original>Medium truck</Original>
+        <Russian>Средний грузовик</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_heavy_truck">
+        <Original>Heavy truck</Original>
+        <Russian>Тяжелый грузовик</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_fuel_truck">
+        <Original>Fuel truck</Original>
+        <Russian>Топливозаправщик</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_repair_truck">
+        <Original>Repair truck</Original>
+        <Russian>Ремонтная машина</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_ammo_truck">
+        <Original>Ammo truck</Original>
+        <Russian>Боеприпасы</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_support_carrier">
+        <Original>Carrier truck</Original>
+        <Russian>Тягач</Russian>
       </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_offroad_text">
         <Original>Light offroad</Original>
@@ -862,6 +898,100 @@
         <Czech>Ozbrojený pickup</Czech>
         <Chinesesimp>武装皮卡</Chinesesimp>
         <Korean>장갑 픽업트럭</Korean>
+      </Key>
+    </Container>
+    <Container name="dialog_vehicle_purchase_mil_offroad">
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_text">
+        <Original>Military offroad</Original>
+        <English>Military offroad</English>
+        <Russian>Военные внедорожники</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_quad">
+        <Original>Quad bike</Original>
+        <English>Quad bike</English>
+        <Russian>Квадроцикл</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_uaz">
+        <Original>UAZ</Original>
+        <English>UAZ</English>
+        <Russian>УАЗ</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_gaz66">
+        <Original>GAZ 66</Original>
+        <English>GAZ 66</English>
+        <Russian>ГАЗ 66</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_uaz_dshkm">
+        <Original>UAZ DShKM</Original>
+        <English>UAZ DShKM</English>
+        <Russian>УАЗ с ДШКМ</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_uaz_ags">
+        <Original>UAZ AGS</Original>
+        <English>UAZ AGS</English>
+        <Russian>УАЗ с АГС</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_uaz_spg9">
+        <Original>UAZ SPG-9</Original>
+        <English>UAZ SPG-9</English>
+        <Russian>УАЗ с СПГ-9</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_gaz66_zu23">
+        <Original>GAZ 66 ZSU-23</Original>
+        <English>GAZ 66 ZSU-23</English>
+        <Russian>ГАЗ 66 с ЗСУ-23-2</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_brdm2m">
+        <Original>BRDM 2M</Original>
+        <English>BRDM 2M</English>
+        <Russian>БРДМ 2М</Russian>
+      </Key>
+    </Container>
+    <Container name="dialog_vehicle_purchase_mil_armored">
+     <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_text">
+        <Original>Armored vehicles</Original>
+        <English>Armored vehicles</English>
+        <Russian>Бронетехника</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_brdm2_atgm">
+        <Original>BRDM 2 ATGM</Original>
+        <English>BRDM 2 ATGM</English>
+        <Russian>БРДМ 2 ПТРК</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_btr80">
+        <Original>BTR-80</Original>
+        <English>BTR-80</English>
+        <Russian>БТР-80</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_shilka">
+        <Original>ZSU-23-4 Shilka</Original>
+        <English>ZSU-23-4 Shilka</English>
+        <Russian>ЗСУ-23-4 Шилка</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_bmd1p">
+        <Original>BMD-1P</Original>
+        <English>BMD-1P</English>
+        <Russian>БМД-1П</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_bmp2">
+        <Original>BMP-2</Original>
+        <English>BMP-2</English>
+        <Russian>БМП-2</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_t72ba">
+        <Original>T-72</Original>
+        <English>T-72</English>
+        <Russian>T-72</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_t72bb">
+        <Original>T-72 RA</Original>
+        <English>T-72 RA</English>
+        <Russian>T-72 ДЗ</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_2s1">
+        <Original>2S1 Carnation</Original>
+        <English>2S1 Carnation</English>
+        <Russian>2С1 Гвоздика</Russian>
       </Key>
     </Container>
     <Container name="dialog_vehicle_purchase_civ">
@@ -3268,15 +3398,23 @@
       </Key>
       <Key ID="STR_antistasi_dialogs_squad_recruit_sniper">
         <Original>Recruit Sniper Team</Original>
-        <Russian>Группа снайперов</Russian>
+        <Russian>Снайперы</Russian>
       </Key>
       <Key ID="STR_antistasi_dialogs_squad_recruit_mg">
         <Original>Recruit MG Team</Original>
-        <Russian>Группа пулеметчиков</Russian>
+        <Russian>Пулеметный рассчет</Russian>
       </Key>
       <Key ID="STR_antistasi_dialogs_squad_recruit_at_car">
         <Original>Recruit AT Car</Original>
         <Russian>ПТ Техника</Russian>
+      </Key>
+	  <Key ID="STR_antistasi_dialogs_squad_recruit_lvh">
+        <Original>Light vehicles</Original>
+        <Russian>Легкая техника</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_squad_recruit_avh">
+        <Original>Armored vehicles</Original>
+        <Russian>Бронетехника</Russian>
       </Key>
       <Key ID="STR_antistasi_dialogs_squad_recruit_aa_car">
         <Original>Recruit AA Truck</Original>
@@ -3284,7 +3422,7 @@
       </Key>
       <Key ID="STR_antistasi_dialogs_squad_recruit_mortar">
         <Original>Recruit Mortar Team</Original>
-        <Russian>Артилерия</Russian>
+        <Russian>Минометный рассчет</Russian>
       </Key>
     </Container>
     <Container name="player_money">
@@ -3340,11 +3478,11 @@
       </Key>
       <Key ID="STR_antistasi_dialogs_garage_personal">
         <Original>Personal Garage</Original>
-        <Russian>Личный</Russian>
+        <Russian>Личный гараж</Russian>
       </Key>
       <Key ID="STR_antistasi_dialogs_garage_faction">
         <Original>Faction Garage</Original>
-        <Russian>Фракции</Russian>
+        <Russian>Гараж фракции</Russian>
       </Key>
     </Container>
     <Container name="mortar_type">
@@ -3463,6 +3601,244 @@
       <Key ID="STR_antistasi_dialogs_gameMode_menu_Reb_vs_Inv">
         <Original>Reb vs Inv</Original>
         <Russian>Зеленые vs Красные</Russian>
+      </Key>
+    </Container>
+    <Container name="flag_action">
+      <Key ID="STR_antistasi_flag_action_unitRecruitment">
+        <Original>Unit Recruitment</Original>
+        <Russian>Нанять бойцов</Russian>
+      </Key>
+      <Key ID="STR_antistasi_flag_action_unitRecruitment_enemies">
+        <Original>You cannot recruit units while there are enemies near you</Original>
+        <Russian>Вы не можете нанимать бойцов пока рядом с вами находятся враги</Russian>
+      </Key>
+      <Key ID="STR_antistasi_flag_action_buyVehicle">
+        <Original>Buy Vehicle</Original>
+        <Russian>Купить транспорт</Russian>
+      </Key>
+      <Key ID="STR_antistasi_flag_action_buyVehicle_enemies">
+        <Original>You cannot buy vehicles while there are enemies near you</Original>
+        <Russian>Вы не можете покупать транспорт пока рядом находятся враги</Russian>
+      </Key>
+      <Key ID="STR_antistasi_flag_action_moveAsset">
+        <Original>Move this asset</Original>
+        <Russian>Передвинуть</Russian>
+      </Key>
+      <Key ID="STR_antistasi_flag_action_personal_garage">
+        <Original>Personal Garage</Original>
+        <Russian>Мой гараж</Russian>
+      </Key>
+      <Key ID="STR_antistasi_flag_action_fraction_garage">
+        <Original>Faction Garage</Original>
+        <Russian>Гараж фракции</Russian>
+      </Key>
+      <Key ID="STR_antistasi_mission_request">
+        <Original>Mission Request</Original>
+        <Russian>Запросить задание</Russian>
+      </Key>
+      <Key ID="STR_antistasi_hq_management">
+        <Original>HQ Management</Original>
+        <Russian>Управление базой</Russian>
+      </Key>
+      <Key ID="STR_antistasi_drop_here">
+        <Original>Drop Here</Original>
+        <Russian>Поставить здесь</Russian>
+      </Key>
+      <Key ID="STR_antistasi_empty_garage">
+        <Original>The Garage is empty or the vehicles you have are not suitable to recover in the place you are.\n\nAir vehicles need to be recovered near Airport flags.</Original>
+        <Russian>Гараж пуст либо транспорт, который вы пытаетесь извлечь невозможно расположить в выбранном месте.\n\nВоздушный транспорт возможно извлечь только в аэропорту.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_vehicle_cargo_to_ammobox">
+        <Original>Transfer Vehicle cargo to Ammobox</Original>
+        <Russian>Переместить содержимое машины в Арсенал</Russian>
+      </Key>
+      <Key ID="STR_antistasi_8_hours_rest">
+        <Original>Rest for 8 Hours</Original>
+        <Russian>Спать 8 часов</Russian>
+      </Key>
+      <Key ID="STR_antistasi_clear_forest">
+        <Original>Clear Nearby Forest</Original>
+        <Russian>Убрать близлежайший лес</Russian>
+      </Key>
+      <Key ID="STR_antistasi_clear_fog">
+        <Original>I hate the fog</Original>
+        <Russian>Убрать туман</Russian>
+      </Key>
+      <Key ID="STR_antistasi_clear_rain">
+        <Original>Rain rain go away</Original>
+        <Russian>Убрать дождь</Russian>
+      </Key>
+      <Key ID="STR_antistasi_heal_repair_rearm">
+        <Original>Heal, Repair and Rearm</Original>
+        <Russian>Вылечить, починить и перезарядить</Russian>
+      </Key>
+      <Key ID="STR_antistasi_buy_lootbox">
+        <Original>Buy loot box for 10€</Original>
+        <Russian>Купить ящик для снаряжения за 10€</Russian>
+      </Key>
+      <Key ID="STR_antistasi_carry_crate">
+        <Original>Carry Crate</Original>
+        <Russian>Нести ящик</Russian>
+      </Key>
+      <Key ID="STR_antistasi_loot_from_crate_to_vehicle">
+        <Original>Load loot from crate to vehicle</Original>
+        <Russian>Перенести снаряжение из ящика в машину</Russian>
+      </Key>
+      <Key ID="STR_antistasi_loot_to_crate">
+        <Original>Load loot to crate</Original>
+        <Russian>Собрать инвентарь в ящик</Russian>
+      </Key>
+      <Key ID="STR_antistasi_load_crate_to_vehicle">
+        <Original>Load %1 into nearest vehicle</Original>
+        <Russian>Погрузить %1 в ближайшую машину</Russian>
+      </Key>
+      <Key ID="STR_antistasi_no_vehicles_near_by">
+        <Original>No vehicles nearby</Original>
+        <Russian>Поблизости нет транспорта</Russian>
+      </Key>
+      <Key ID="STR_antistasi_loot_transfered_to">
+        <Original>All loot transfered to %1</Original>
+        <Russian>Снаряжение было перенесено в %1</Russian>
+      </Key>
+      <Key ID="STR_antistasi_loot_transfer_full">
+        <Original>Unable to transfer all loot to %1. %1 full</Original>
+        <Russian>Невозможно перенести все снаряжение в %1. %1 полон</Russian>
+      </Key>
+      <Key ID="STR_antistasi_loot_transfered_to_crate">
+        <Original>Nearby loot transfered to crate</Original>
+        <Russian>Близлежащий инвентарь был собран в ящик</Russian>
+      </Key>
+      <Key ID="STR_antistasi_unable_transfer_loot_to_crate">
+        <Original>Unable to transfer all nearby loot</Original>
+        <Russian>Не удалось собрать весь близлежащий инвентарь в ящик</Russian>
+      </Key>
+      <Key ID="STR_antistasi_unload_cargo">
+        <Original>Unload Cargo</Original>
+        <Russian>Разгрузить</Russian>
+      </Key>
+      <Key ID="STR_antistasi_mission_for_you">
+        <Original>У меня есть задание для тебя</Original>
+        <Russian>У меня есть задание для тебя</Russian>
+      </Key>
+      <Key ID="STR_antistasi_kill_the_traitor">
+        <Original>Убейте предателя</Original>
+        <Russian>Убейте предателя</Russian>
+      </Key>
+      <Key ID="STR_antistasi_kill_the_traitor_desc">
+        <Original>Предатель назначил встречу в %1. Убейте его прежде чем он успеет передать противнику данные о нас. Устраните предателя до %2. Мы не знаем где точно будет проходить встреча. Однако мы уверены, что это будет здание рядом с проселочной дорогой. Также %3 опредленно будет там.</Original>
+        <Russian>Предатель назначил встречу в %1. Убейте его прежде чем он успеет передать противнику данные о нас. Устраните предателя до %2. Мы не знаем где точно будет проходить встреча. Однако мы уверены, что это будет здание рядом с проселочной дорогой. Также %3 опредленно будет там.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_drop_crate">
+        <Original>Drop Crate</Original>
+        <Russian>Бросить ящик</Russian>
+      </Key>
+      <Key ID="STR_antistasi_armored_convoy_title">
+        <Original>Колонна бронетехники</Original>
+        <Russian>Колонна бронетехники</Russian>
+      </Key>
+      <Key ID="STR_antistasi_armored_convoy_desc">
+        <Original>Колонна бронетехники из %1 собирается выехать в %2 для того, чтобы усилить гарнизон %3. Попробуйте перехватить колонну. Украдите либо уничтожте бронетехнику прежде, чем она доберется до места назначения.</Original>
+        <Russian>Колонна бронетехники из %1 собирается выехать в %2 для того, чтобы усилить гарнизон %3. Попробуйте перехватить колонну. Украдите либо уничтожте бронетехнику прежде, чем она доберется до места назначения.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_ammo_convoy_title">
+        <Original>Колонна c боеприпасами</Original>
+        <Russian>Колонна c боеприпасами</Russian>
+      </Key>
+      <Key ID="STR_antistasi_ammo_convoy_desc">
+        <Original>Колонна c боеприпасами из %1 собирается выехать в %2 для того, чтобы доставить боеприпасы в %3. Попробуйте перехватить колонну. Украдите либо уничтожте грузовик с боеприпасами прежде, чем он доберется до места назначения.</Original>
+        <Russian>Колонна c боеприпасами из %1 собирается выехать в %2 для того, чтобы доставить боеприпасы в %3. Попробуйте перехватить колонну. Украдите либо уничтожте грузовик с боеприпасами прежде, чем он доберется до места назначения.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_prisoners_convoy_title">
+        <Original>Конвой с заключенными</Original>
+        <Russian>Конвой с заключенными</Russian>
+      </Key>
+      <Key ID="STR_antistasi_prisoners_convoy_desc">
+        <Original>Группу заключенных собираются перевезти из %1 в %3. Запланированное время отправки %2. Попробуйте освободить заключенных и доставить их на нашу базу. Это создаст нам положительную репутацию. Кроме того, освобожденные люди с удовольствием пополнят наши ряды.</Original>
+        <Russian>Группу заключенных собираются перевезти из %1 в %3. Запланированное время отправки %2. Попробуйте освободить заключенных и доставить их на нашу базу. Это создаст нам положительную репутацию. Кроме того, освобожденные люди с удовольствием пополнят наши ряды.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_reinforcements_convoy_title">
+        <Original>Колонна с подкреплениями</Original>
+        <Russian>Колонна с подкреплениями</Russian>
+      </Key>
+      <Key ID="STR_antistasi_reinforcements_convoy_desc">
+        <Original>Колонна с подкреплениями готовится к отправке из %1 в %3. Примерное время отправки %2. Уничтожьте личный состав колонны и транспорт, на котором он перемещается.</Original>
+        <Russian>Колонна с подкреплениями готовится к отправке из %1 в %3. Примерное время отправки %2. Уничтожьте личный состав колонны и транспорт, на котором он перемещается.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_money_convoy_title">
+        <Original>Грузовик с наличными</Original>
+        <Russian>Грузовик с наличными</Russian>
+      </Key>
+      <Key ID="STR_antistasi_money_convoy_desc">
+        <Original>Грузовик с огромным количеством наличных собирается выехать из %1 в %3. Примерное время отправки %2. Украдите грузовик, а зате привезите его на базу. Эти средства очень помогут нашему делу.</Original>
+        <Russian>Грузовик с огромным количеством наличных собирается выехать из %1 в %3. Примерное время отправки %2. Украдите грузовик, а зате привезите его на базу. Эти средства очень помогут нашему делу.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_supply_convoy_title">
+        <Original>Грузовик с медикаментами</Original>
+        <Russian>Грузовик с медикаментами</Russian>
+      </Key>
+      <Key ID="STR_antistasi_supply_convoy_desc">
+        <Original>Грузовик с медикаментами выезжает в %2 из %1 и направляется к %3. Перехватите грузовик и привезите его в %3 сами. По прибытии не забудьте напомнить местным, что за предоставленную помощь они обязаны благодарить %4.</Original>
+        <Russian>Грузовик с медикаментами выезжает в %2 из %1 и направляется к %3. Перехватите грузовик и привезите его в %3 сами. По прибытии не забудьте напомнить местным, что за предоставленную помощь они обязаны благодарить %4.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_ammotruck_task_title">
+        <Original>Украдите либо уничтожьте грузовик с боеприпасами</Original>
+        <Russian>Украдите либо уничтожьте грузовик с боеприпасами</Russian>
+      </Key>
+      <Key ID="STR_antistasi_ammotruck_task_desc">
+        <Original>Мы обнаружили грузовик с боеприпасами в %1. Направляйтесь туда. Уничтожьте либо украдите грузовик до %2.</Original>
+        <Russian>Мы обнаружили грузовик с боеприпасами в %1. Направляйтесь туда. Уничтожьте либо украдите грузовик до %2.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_petros_same_type_mission">
+        <Original>Я уже дал вам миссию подобного типа</Original>
+        <Russian>Я уже дал вам миссию подобного типа</Russian>
+      </Key>
+      <Key ID="STR_antistasi_city_supplies_task_title">
+        <Original>Обеспечение города</Original>
+        <Russian>Обеспечение города</Russian>
+      </Key>
+      <Key ID="STR_antistasi_city_supplies_task_desc">
+        <Original>Населению города %1 требуется гуманитарная помощь. Мы можем предоставить ее, улучшив тем самым отношения с жителями города. Я разместил упаковку со всем необходимым возле нашей базы. Доставь эту упаковку в центр города %1, выгрузи и последи за ней в течении 3 минут. Упаковка с гуманитаркой должна быть доставлена до %2.</Original>
+        <Russian>Населению города %1 требуется гуманитарная помощь. Мы можем предоставить ее, улучшив тем самым отношения с жителями города. Я разместил упаковку со всем необходимым возле нашей базы. Доставь эту упаковку в центр города %1, выгрузи и последи за ней в течении 3 минут. Упаковка с гуманитаркой должна быть доставлена до %2.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_destroy_radio_tower_task_title">
+        <Original>Уничтожьте радиовышку</Original>
+        <Russian>Уничтожьте радиовышку</Russian>
+      </Key>
+      <Key ID="STR_antistasi_destroy_radio_tower_task_desc">
+        <Original>Нам необходимо уничтожить или захватить радио вышку в %1. Это позволит избавить местное население от пропаганды %3. Успейте до %2</Original>
+        <Russian>Нам необходимо уничтожить или захватить радио вышку в %1. Это позволит избавить местное население от пропаганды %3. Успейте до %2</Russian>
+      </Key>
+      <Key ID="STR_antistasi_pow_rescue_task_title">
+        <Original>Спасение узников</Original>
+        <Russian>Спасение узников</Russian>
+      </Key>
+      <Key ID="STR_antistasi_pow_rescue_task_desc">
+        <Original>Группа узников ожидает казни в %1. Мы обязаны успеть предотвратить казнь до %2. Спасенные узники должны быть доставлены на нашу базу. Это поднимет авторитет нашей фракции среди местного населения, а освобожденные узники присоединятся к нашей борьбе.</Original>
+        <Russian>Группа узников ожидает казни в %1. Мы обязаны успеть предотвратить казнь до %2. Спасенные узники должны быть доставлены на нашу базу. Это поднимет авторитет нашей фракции среди местного населения, а освобожденные узники присоединятся к нашей борьбе.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_take_outpost_task_title">
+        <Original>Захватите аванпост</Original>
+        <Russian>Захватите аванпост</Russian>
+      </Key>
+      <Key ID="STR_antistasi_take_outpost_task_desc">
+        <Original>Аванпост %1 мешает нашей борьбе в данном регионе. Захватите его до %2</Original>
+        <Russian>Аванпост %1 мешает нашей борьбе в данном регионе. Захватите его до %2</Russian>
+      </Key>
+      <Key ID="STR_antistasi_resource_acquisition_task_title">
+        <Original>Захват ресурсной точки</Original>
+        <Russian>Захват ресурсной точки</Russian>
+      </Key>
+      <Key ID="STR_antistasi_resource_acquisition_task_desc">
+        <Original>Захват %1 принесет нам неплохую прибыль. Захватите её до %2.</Original>
+        <Russian>Захват %1 принесет нам неплохую прибыль. Захватите её до %2.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_refugees_evac_task_title">
+        <Original>Спасение контрабандистов</Original>
+        <Russian>Спасение контрабандистов</Russian>
+      </Key>
+      <Key ID="STR_antistasi_refugees_evac_task_desc">
+        <Original>Группа контрабандистов была арестована в %1. Освободите их прежде, чем они будут этапированы в тюрьму. Вам необоходимо успеть до %2</Original>
+        <Russian>Группа контрабандистов была арестована в %1. Освободите их прежде, чем они будут этапированы в тюрьму. Вам необоходимо успеть до %2</Russian>
       </Key>
     </Container>
   </Package>
