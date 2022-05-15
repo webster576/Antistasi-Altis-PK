@@ -53,7 +53,7 @@ else
 _resourcesFIA = server getVariable "resourcesFIA";
 _hrFIA = server getVariable "hr";
 
-if (((_resourcesFIA < _costs) or (_hrFIA < _hr)) and (_typeX!= "delete")) exitWith {["Outposts/Roadblocks", format ["You lack of resources to build this Outpost or Roadblock <br/><br/> %1 HR and %2 € needed",_hr,_costs]] call A3A_fnc_customHint;};
+if (((_resourcesFIA < _costs) or (_hrFIA < _hr)) and (_typeX!= "delete")) exitWith {["Outposts/Roadblocks", format ["You lack of resources to build this Outpost or Roadblock <br/><br/> %1 HR and %2 ₽ needed",_hr,_costs]] call A3A_fnc_customHint;};
 
 if (_typeX != "delete") then
 	{
