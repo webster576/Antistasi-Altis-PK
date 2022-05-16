@@ -3840,18 +3840,6 @@
         <Original>Группа контрабандистов была арестована в %1. Освободите их прежде, чем они будут этапированы в тюрьму. Вам необоходимо успеть до %2</Original>
         <Russian>Группа контрабандистов была арестована в %1. Освободите их прежде, чем они будут этапированы в тюрьму. Вам необоходимо успеть до %2</Russian>
       </Key>
-	  <Key ID="STR_antistasi_sector_attack">
-        <Original>%2 Is attacking from the %1. Intercept them or we may loose a sector</Original>
-        <Russian>%2 атакует из %1. Помешайте им или мы можем потерять сектор</Russian>
-      </Key>
-	  <Key ID="STR_antistasi_fraction_attack">
-        <Original>%1 Attack</Original>
-        <Russian>%1 отакЭ!</Russian>
-      </Key>
-	  <Key ID="STR_antistasi_buy_air_vehicle">
-        <Original>Buy Air Vehicle</Original>
-        <Russian>Купить авиатехнику</Russian>
-      </Key>
     </Container>
   </Package>
 </Project>

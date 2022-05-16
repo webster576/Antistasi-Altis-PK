@@ -17,7 +17,7 @@ private _costs = server getVariable _typeUnit;
 private _resourcesFIA = 0;
 if (!isMultiPlayer) then {_resourcesFIA = server getVariable "resourcesFIA"} else {_resourcesFIA = player getVariable "moneyX";};
 
-if (_costs > _resourcesFIA) exitWith {["AI Recruitment", format ["You do not have enough money for this kind of unit (%1 ₽ needed)",_costs]] call A3A_fnc_customHint;};
+if (_costs > _resourcesFIA) exitWith {["AI Recruitment", format ["You do not have enough money for this kind of unit (%1 € needed)",_costs]] call A3A_fnc_customHint;};
 
 if ((count units group player) + (count units stragglers) > 9) exitWith {["AI Recruitment", "Your squad is full or you have too many scattered units with no radio contact"] call A3A_fnc_customHint;};
 

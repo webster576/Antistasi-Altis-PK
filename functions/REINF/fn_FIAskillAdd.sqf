@@ -4,7 +4,7 @@ if (skillFIA > 20) exitWith {["Skill Add", "Your troops have the maximum trainin
 if (skillFIA > (tierWar*2)) exitWith {["Skill Add", "You cannot upgrade training in the current War Level"] call A3A_fnc_customHint;};
 _resourcesFIA = server getVariable "resourcesFIA";
 _costs = 1000 + (1.5*(skillFIA *750));
-if (_resourcesFIA < _costs) exitWith {["Skill Add", format ["You do not have enough money to afford additional training. %1 ₽ needed",_costs]] call A3A_fnc_customHint;};
+if (_resourcesFIA < _costs) exitWith {["Skill Add", format ["You do not have enough money to afford additional training. %1 € needed",_costs]] call A3A_fnc_customHint;};
 
 _resourcesFIA = _resourcesFIA - _costs;
 skillFIA = skillFIA + 1;
