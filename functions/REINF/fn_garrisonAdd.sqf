@@ -21,7 +21,7 @@ else
 	_costs = server getVariable _typeX;
 	};
 
-if (_costs > _resourcesFIA) exitWith {["Garrisons", format ["You do not have enough money for this kind of unit (%1 € needed)",_costs]] call A3A_fnc_customHint;};
+if (_costs > _resourcesFIA) exitWith {["Garrisons", format ["You do not have enough money for this kind of unit (%1 ₽ needed)",_costs]] call A3A_fnc_customHint;};
 
 _markerX = positionXGarr;
 

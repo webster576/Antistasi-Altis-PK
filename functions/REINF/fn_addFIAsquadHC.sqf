@@ -70,7 +70,7 @@ if ((_withBackpck != "") and A3A_hasIFA) exitWith {["Recruit Squad", "Your curre
 
 if (_hr < _costHR) then {_exit = true; ["Recruit Squad", format ["You do not have enough HR for this request (%1 required)",_costHR]] call A3A_fnc_customHint;};
 
-if (_resourcesFIA < _costs) then {_exit = true; ["Recruit Squad", format ["You do not have enough money for this request (%1 € required)",_costs]] call A3A_fnc_customHint;};
+if (_resourcesFIA < _costs) then {_exit = true; ["Recruit Squad", format ["You do not have enough money for this request (%1 ₽ required)",_costs]] call A3A_fnc_customHint;};
 
 if (_exit) exitWith {};
 
@@ -188,7 +188,7 @@ private _display = findDisplay 100;
 
 if (str (_display) != "no display") then {
 	private _ChildControl = _display displayCtrl 104;
-	_ChildControl  ctrlSetTooltip format ["Buy a vehicle for this squad for %1 €",_costs];
+	_ChildControl  ctrlSetTooltip format ["Buy a vehicle for this squad for %1 ₽",_costs];
 	_ChildControl = _display displayCtrl 105;
 	_ChildControl  ctrlSetTooltip "Barefoot Infantry";
 };
