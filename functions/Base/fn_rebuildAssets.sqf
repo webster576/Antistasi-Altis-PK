@@ -1,7 +1,7 @@
 
 _resourcesFIA = server getVariable "resourcesFIA";
 
-if (_resourcesFIA < 5000) exitWith {["Rebuild Assets", "You do not have enough money to rebuild any Asset. You need 5.000 €"] call A3A_fnc_customHint;};
+if (_resourcesFIA < 5000) exitWith {["Rebuild Assets", "You do not have enough money to rebuild any Asset. You need 5.000 P"] call A3A_fnc_customHint;};
 
 _destroyedSites = destroyedSites - citiesX;
 
