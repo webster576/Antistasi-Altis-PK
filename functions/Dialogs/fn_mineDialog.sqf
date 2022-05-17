@@ -13,7 +13,7 @@ if (_typeX == "delete") then
 	_costs = _costs - (server getVariable (SDKExp select 0));
 	_hr = 1;
 	};
-if ((server getVariable "resourcesFIA" < _costs) or (server getVariable "hr" < _hr)) exitWith {["Minefields", format ["Not enough resources to recruit a mine deploying team (%1 ₽ and %2 HR needed)",_costs,_hr]] call A3A_fnc_customHint;};
+if ((server getVariable "resourcesFIA" < _costs) or (server getVariable "hr" < _hr)) exitWith {["Minefields", format ["Not enough resources to recruit a mine deploying team (%1 P and %2 HR needed)",_costs,_hr]] call A3A_fnc_customHint;};
 
 if (_typeX == "delete") exitWith
 	{

@@ -120,7 +120,7 @@ while {true} do
 		private _players_cut_reminder = _players_cut - ((count _allPlayers) * _player_cut);
 		
 		{
-			private _player_cut_msg = format ["<t size='1' color='#C1C0BB'>Our fraction is growing. It becomes more powerful and rich. Not least thanks by you. Anyway, here is your cut:<br/><br/><t size='2' color='#C1C0BB'>Money: +%1 ₽", _player_cut];
+			private _player_cut_msg = format ["<t size='1' color='#C1C0BB'>Our fraction is growing. It becomes more powerful and rich. Not least thanks by you. Anyway, here is your cut:<br/><br/><t size='2' color='#C1C0BB'>Money: +%1 P", _player_cut];
 			["Your cut", _player_cut_msg] call A3A_fnc_customHint;
 			[_player_cut] remoteExec ["A3A_fnc_resourcesPlayer", _x];
 		} forEach _allPlayers;
@@ -136,7 +136,7 @@ while {true} do
 	bombRuns = bombRuns + 0.25 * ({sidesX getVariable [_x,sideUnknown] == teamPlayer} count airportsX);
 	publicVariable "bombRuns";
 
-	private _textX = format ["<t size='0.6' color='#C1C0BB'>Taxes Income.<br/> <t size='0.5' color='#C1C0BB'><br/>Manpower: +%1<br/>Money: +%2 ₽", _hrAdd, _resAdd];
+	private _textX = format ["<t size='0.6' color='#C1C0BB'>Taxes Income.<br/> <t size='0.5' color='#C1C0BB'><br/>Manpower: +%1<br/>Money: +%2 P", _hrAdd, _resAdd];
 	private _textArsenal = [] call A3A_fnc_arsenalManage;
 	if (_textArsenal != "") then {_textX = format ["%1<br/>Arsenal Updated<br/><br/>%2", _textX, _textArsenal]};
 	[petros, "taxRep", _textX] remoteExec ["A3A_fnc_commsMP", [teamPlayer, civilian]];
