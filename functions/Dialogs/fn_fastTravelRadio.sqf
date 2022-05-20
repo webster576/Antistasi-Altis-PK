@@ -22,7 +22,7 @@ _checkX = false;
 //_distanceX = 500 - (([_boss,false] call A3A_fnc_fogCheck) * 450);
 _distanceX = 500;
 
-{if ([_x,_distanceX] call A3A_fnc_enemyNearCheck) exitWith {_checkX = true}} forEach units _groupX;
+//{if ([_x,_distanceX] call A3A_fnc_enemyNearCheck) exitWith {_checkX = true}} forEach units _groupX;
 
 if (_checkX) exitWith {["Fast Travel", "You cannot Fast Travel with enemies near the group"] call A3A_fnc_customHint;};
 
