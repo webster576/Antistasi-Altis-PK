@@ -473,7 +473,7 @@ if (_side isEqualTo independent) then {
 	vehSDKCarrier = _faction getVariable "vehicleCarrierTruck";
 	vehSDKHeliMi8 = _faction getVariable "vehicleMi8";
 	vehSDKHeliMi8MT = _faction getVariable "vehicleMi8MT";
-	vehSDKHeliMi24V = _faction getVariable "vehicleMi24V";
+	vehSDKHeliMi24D = _faction getVariable "vehicleMi24D";
 	vehSDKPlane = _faction getVariable "vehiclePlane";
 	vehSDKPlaneL39 = _faction getVariable "vehicleL39";
 	vehSDKPlaneSu25 = _faction getVariable "vehicleSu25";

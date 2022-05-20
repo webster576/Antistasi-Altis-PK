@@ -662,7 +662,7 @@ class air_vehicles {
 		 	y = 0.415981 * safezoneH + safezoneY;
 		 	w = 0.175015 * safezoneW;
 		 	h = 0.0560125 * safezoneH;
-			action = "closeDialog 0;nul = [vehSDKHeliMi24V] spawn A3A_fnc_addFIAveh;";
+			action = "closeDialog 0;nul = [vehSDKHeliMi24D] spawn A3A_fnc_addFIAveh;";
 		};
 		class HQ_button_l39: RscButton
 		{

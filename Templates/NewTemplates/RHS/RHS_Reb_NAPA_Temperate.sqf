@@ -39,7 +39,7 @@
 
 ["vehicleMi8", "rhsgref_ins_g_Mi8amt"] call _fnc_saveToTemplate;
 ["vehicleMi8MT", "rhsgref_cdf_reg_Mi17Sh"] call _fnc_saveToTemplate;
-["vehicleMi24V", "rhsgref_cdf_Mi35"] call _fnc_saveToTemplate;
+["vehicleMi24D", "CUP_O_Mi24_D_Dynamic_SLA"] call _fnc_saveToTemplate;
 ["vehicleL39", "rhs_l39_cdf"] call _fnc_saveToTemplate;
 ["vehicleSu25", "rhsgref_cdf_su25"] call _fnc_saveToTemplate;
 ["vehicleMig29S", "rhsgref_cdf_mig29s"] call _fnc_saveToTemplate;

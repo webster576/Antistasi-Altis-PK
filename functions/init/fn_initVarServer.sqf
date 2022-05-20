@@ -458,7 +458,7 @@ private _templateVariables = [
 	"vehCSATPatrolHeli",
 	"vehSDKHeliMi8",
 	"vehSDKHeliMi8MT",
-	"vehSDKHeliMi24V",
+	"vehSDKHeliMi24D",
 	"vehCSATTransportHelis",
 	"vehCSATAttackHelis",
 	"vehCSATUAV",
@@ -666,7 +666,7 @@ DECLARE_SERVER_VAR(vehPlanes, _vehPlanes);
 private _vehAttackHelis = vehCSATAttackHelis + vehNATOAttackHelis;
 DECLARE_SERVER_VAR(vehAttackHelis, _vehAttackHelis);
 
-private _vehHelis = vehNATOTransportHelis + vehCSATTransportHelis + vehAttackHelis + [vehNATOPatrolHeli,vehCSATPatrolHeli,vehSDKHeliMi8,vehSDKHeliMi8MT,vehSDKHeliMi24V];
+private _vehHelis = vehNATOTransportHelis + vehCSATTransportHelis + vehAttackHelis + [vehNATOPatrolHeli,vehCSATPatrolHeli,vehSDKHeliMi8,vehSDKHeliMi8MT,vehSDKHeliMi24D];
 DECLARE_SERVER_VAR(vehHelis, _vehHelis);
 
 private _vehFixedWing = [vehNATOPlane,vehNATOPlaneAA,vehCSATPlane,vehCSATPlaneAA,vehSDKPlane,vehSDKPlaneL39,vehSDKPlaneSu25,vehSDKPlaneMig29S] + vehNATOTransportPlanes + vehCSATTransportPlanes;
@@ -702,7 +702,7 @@ DECLARE_SERVER_VAR(vehTransportAir, _vehTransportAir);
 private _vehFastRope = ["O_Heli_Light_02_unarmed_F","B_Heli_Transport_01_camo_F","RHS_UH60M_d","UK3CB_BAF_Merlin_HC3_18_GPMG_DDPM_RM","UK3CB_BAF_Merlin_HC3_18_GPMG_Tropical_RM","RHS_Mi8mt_vdv","RHS_Mi8mt_vv","RHS_Mi8mt_Cargo_vv"];
 DECLARE_SERVER_VAR(vehFastRope, _vehFastRope);
 
-private _vehUnlimited = vehNATONormal + vehCSATNormal + [vehNATORBoat,vehNATOPatrolHeli,vehCSATRBoat,vehCSATPatrolHeli,vehSDKHeliMi8,vehSDKHeliMi8MT,vehSDKHeliMi24V,vehNATOUAV,vehNATOUAVSmall,NATOMG,NATOMortar,vehCSATUAV,vehCSATUAVSmall,CSATMG,CSATMortar];
+private _vehUnlimited = vehNATONormal + vehCSATNormal + [vehNATORBoat,vehNATOPatrolHeli,vehCSATRBoat,vehCSATPatrolHeli,vehSDKHeliMi8,vehSDKHeliMi8MT,vehSDKHeliMi24D,vehNATOUAV,vehNATOUAVSmall,NATOMG,NATOMortar,vehCSATUAV,vehCSATUAVSmall,CSATMG,CSATMortar];
 DECLARE_SERVER_VAR(vehUnlimited, _vehUnlimited);
 
 private _vehFIA = [vehSDKBike,vehSDKAT,vehSDKGL,vehSDKATGM,vehSDKBTR80,vehSDKBMD,vehSDKBMP,vehSDKBTR80A,vehSDKZSU,vehSDKT72BA,vehSDKT72BB,vehSDK2S1,vehSDKLightArmed,vehSDKLightTruck,vehSDKMediumTruck,vehSDKHeavyTruck,SDKAAStatic,SDKMGStatic,SDKMGStatic1,SDKATStatic,SDKGLStatic,vehSDKLightUnarmed,vehSDKTruck,vehSDKBoat,SDKMortar,staticATteamPlayer,staticAAteamPlayer,vehSDKRepair,vehSDKFuel,vehSDKAmmo,vehSDKHeal,vehSDKCarrier];
@@ -788,7 +788,7 @@ server setVariable [vehSDK2S1,50000,true];									//50000
 {server setVariable [_x,800,true]} forEach [SDKMortar,staticATteamPlayer,staticAAteamPlayer];								//800
 {server setVariable [_x,2000,true]} forEach [vehSDKBTR80A,vehSDKHeliMi8];														//2000
 {server setVariable [_x,3000,true]} forEach [vehSDKZSU,vehSDKHeliMi8MT,vehSDKPlaneL39];										//3000
-{server setVariable [_x,5000,true]} forEach [civHeli,vehSDKBMD,vehSDKHeliMi24V,vehSDKPlaneSu25,vehSDKPlaneMig29S];			//5000
+{server setVariable [_x,5000,true]} forEach [civHeli,vehSDKBMD,vehSDKHeliMi24D,vehSDKPlaneSu25,vehSDKPlaneMig29S];			//5000
 
 ///////////////////////
 //     GARRISONS    ///
