@@ -277,6 +277,7 @@ class A3A
         class buyMilOffroad {};
         class buyMilArmored {};
         class buyMilStatic {};
+        class buyMilTanks {};
         class clearForest {};
         class createDialog_setParams {};
         class createDialog_shouldLoadPersonalSave {};

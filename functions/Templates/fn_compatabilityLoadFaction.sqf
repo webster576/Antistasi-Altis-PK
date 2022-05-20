@@ -461,8 +461,12 @@ if (_side isEqualTo independent) then {
 	vehSDKBMP = _faction getVariable "vehicleBMP";
 	vehSDKBTR80A = _faction getVariable "vehicleBTR80A";
 	vehSDKZSU = _faction getVariable "vehicleZSU";
+
+	vehSDKT3485 = _faction getVariable "vehicleT3485";
+    vehSDKT55 = _faction getVariable "vehicleT55";
 	vehSDKT72BA = _faction getVariable "vehicleT72BA";
 	vehSDKT72BB = _faction getVariable "vehicleT72BB";
+
 	vehSDK2S1 = _faction getVariable "vehicle2S1";
 	vehSDKAA = _faction getVariable "vehicleAA";
 	vehSDKLightUnarmed = _faction getVariable "vehicleLightUnarmed";
