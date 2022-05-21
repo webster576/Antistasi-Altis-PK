@@ -32,14 +32,17 @@
 ["vehicleBMP", "rhsgref_cdf_bmp2e"] call _fnc_saveToTemplate;
 ["vehicleBTR80A", "rhs_btr80a_vv"] call _fnc_saveToTemplate;
 ["vehicleZSU", "rhsgref_cdf_zsu234"] call _fnc_saveToTemplate;
-["vehicleT72BA", "rhsgref_cdf_t72ba_tv"] call _fnc_saveToTemplate;
-["vehicleT72BB", "rhsgref_cdf_t72bb_tv"] call _fnc_saveToTemplate;
 ["vehicle2S1", "rhsgref_ins_g_2s1"] call _fnc_saveToTemplate;
 ["vehicleBoat", "I_C_Boat_Transport_02_F"] call _fnc_saveToTemplate;
 
+["vehicleT3485", "CUP_I_T34_NAPA"] call _fnc_saveToTemplate;
+["vehicleT55", "CUP_I_T55_NAPA"] call _fnc_saveToTemplate;
+["vehicleT72BA", "CUP_I_T72_NAPA"] call _fnc_saveToTemplate;
+["vehicleT72BB", "rhsgref_cdf_t72bb_tv"] call _fnc_saveToTemplate;
+
 ["vehicleMi8", "rhsgref_ins_g_Mi8amt"] call _fnc_saveToTemplate;
 ["vehicleMi8MT", "rhsgref_cdf_reg_Mi17Sh"] call _fnc_saveToTemplate;
-["vehicleMi24V", "rhsgref_cdf_Mi35"] call _fnc_saveToTemplate;
+["vehicleMi24D", "CUP_O_Mi24_D_Dynamic_SLA"] call _fnc_saveToTemplate;
 ["vehicleL39", "rhs_l39_cdf"] call _fnc_saveToTemplate;
 ["vehicleSu25", "rhsgref_cdf_su25"] call _fnc_saveToTemplate;
 ["vehicleMig29S", "rhsgref_cdf_mig29s"] call _fnc_saveToTemplate;

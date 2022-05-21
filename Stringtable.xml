@@ -731,6 +731,10 @@
         <Original>Static</Original>
         <Russian>Орудия</Russian>
       </Key>
+      <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_tanks_text">
+        <Original>Tanks</Original>
+        <Russian>Танки</Russian>
+      </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_tooltip">
         <Original>Wide variety of available faction vehicles</Original>
         <English>Wide variety of available faction vehicles</English>
@@ -756,6 +760,10 @@
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_static_tooltip">
         <Original>Static weapons</Original>
         <Russian>Стационарные орудия</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_tanks_tooltip">
+        <Original>Main battle tanks</Original>
+        <Russian>Основные боевые танки</Russian>
       </Key>
     </Container>
     <Container name="dialog_vehicle_purchase_military">

@@ -461,8 +461,12 @@ if (_side isEqualTo independent) then {
 	vehSDKBMP = _faction getVariable "vehicleBMP";
 	vehSDKBTR80A = _faction getVariable "vehicleBTR80A";
 	vehSDKZSU = _faction getVariable "vehicleZSU";
+
+	vehSDKT3485 = _faction getVariable "vehicleT3485";
+    vehSDKT55 = _faction getVariable "vehicleT55";
 	vehSDKT72BA = _faction getVariable "vehicleT72BA";
 	vehSDKT72BB = _faction getVariable "vehicleT72BB";
+
 	vehSDK2S1 = _faction getVariable "vehicle2S1";
 	vehSDKAA = _faction getVariable "vehicleAA";
 	vehSDKLightUnarmed = _faction getVariable "vehicleLightUnarmed";
@@ -473,7 +477,7 @@ if (_side isEqualTo independent) then {
 	vehSDKCarrier = _faction getVariable "vehicleCarrierTruck";
 	vehSDKHeliMi8 = _faction getVariable "vehicleMi8";
 	vehSDKHeliMi8MT = _faction getVariable "vehicleMi8MT";
-	vehSDKHeliMi24V = _faction getVariable "vehicleMi24V";
+	vehSDKHeliMi24D = _faction getVariable "vehicleMi24D";
 	vehSDKPlane = _faction getVariable "vehiclePlane";
 	vehSDKPlaneL39 = _faction getVariable "vehicleL39";
 	vehSDKPlaneSu25 = _faction getVariable "vehicleSu25";
