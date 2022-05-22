@@ -37,8 +37,8 @@
 
 ["vehicleT3485", "CUP_I_T34_NAPA"] call _fnc_saveToTemplate;
 ["vehicleT55", "CUP_I_T55_NAPA"] call _fnc_saveToTemplate;
+["vehicleM60A3", "CUP_I_M60A3_RACS"] call _fnc_saveToTemplate;
 ["vehicleT72BA", "CUP_I_T72_NAPA"] call _fnc_saveToTemplate;
-["vehicleT72BB", "rhsgref_cdf_t72bb_tv"] call _fnc_saveToTemplate;
 
 ["vehicleMi8", "rhsgref_ins_g_Mi8amt"] call _fnc_saveToTemplate;
 ["vehicleMi8MT", "rhsgref_cdf_reg_Mi17Sh"] call _fnc_saveToTemplate;

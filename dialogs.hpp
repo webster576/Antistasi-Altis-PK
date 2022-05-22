@@ -1282,22 +1282,22 @@ class mil_vehicle_tanks {
 		class HQ_button_gl: RscButton
 		{
 			idc = 103;
-			text = "T-72";
+			text = "M60A3";
 			x = 0.272481 * safezoneW + safezoneX;
 			y = 0.415981 * safezoneH + safezoneY;
 			w = 0.175015 * safezoneW;
 			h = 0.0560125 * safezoneH;
-			action = "closeDialog 0;nul = [vehSDKT72BA] spawn A3A_fnc_addFIAsquadHC;";
+			action = "closeDialog 0;nul = [vehSDKM60A3] spawn A3A_fnc_addFIAveh;";
 		};
 		class HQ_button_at: RscButton
 		{
 			idc = 104;
-			text = $STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_t72bb;
+			text = "T-72";
 			x = 0.482498 * safezoneW + safezoneX;
 			y = 0.415981 * safezoneH + safezoneY;
 			w = 0.175015 * safezoneW;
 			h = 0.0560125 * safezoneH;
-			action = "closeDialog 0;nul = [vehSDKT72BB] spawn A3A_fnc_addFIAsquadHC;";
+			action = "closeDialog 0;nul = [vehSDKT72BA] spawn A3A_fnc_addFIAveh;";
 		};
 	};
 }
@@ -3040,12 +3040,12 @@ class armor_recruit {
 		class HQ_button_t72bb: RscButton
 		{
 			idc = 107;
-			text = $STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_t72bb;
+			text = "M60A3";
 			x = 0.272481 * safezoneW + safezoneX;
 			y = 0.612025 * safezoneH + safezoneY;
 			w = 0.175015 * safezoneW;
 			h = 0.0560125 * safezoneH;
-			action = "closeDialog 0;nul = [vehSDKT72BB] spawn A3A_fnc_addFIAsquadHC;";
+			action = "closeDialog 0;nul = [vehSDKM60A3] spawn A3A_fnc_addFIAsquadHC;";
 		};
 		class HQ_button_2S1: RscButton
 		{

@@ -15,9 +15,9 @@ if (str (_display) != "no display") then
 	_ChildControl  ctrlSetTooltip format ["Cost: %1 P",[vehSDKT55] call A3A_fnc_vehiclePrice];
 	_childControl ctrlSetText format ["%1",getText (configFile >> "CfgVehicles" >> vehSDKT55 >> "displayName")];
 	_ChildControl = _display displayCtrl 103;
+	_ChildControl  ctrlSetTooltip format ["Cost: %1 P",[vehSDKM60A3] call A3A_fnc_vehiclePrice];
+	_childControl ctrlSetText format ["%1",getText (configFile >> "CfgVehicles" >> vehSDKM60A3 >> "displayName")];
+	_ChildControl = _display displayCtrl 104;
 	_ChildControl  ctrlSetTooltip format ["Cost: %1 P",[vehSDKT72BA] call A3A_fnc_vehiclePrice];
 	_childControl ctrlSetText format ["%1",getText (configFile >> "CfgVehicles" >> vehSDKT72BA >> "displayName")];
-	_ChildControl = _display displayCtrl 104;
-	_ChildControl  ctrlSetTooltip format ["Cost: %1 P",[vehSDKT72BB] call A3A_fnc_vehiclePrice];
-	_childControl ctrlSetText format ["%1",getText (configFile >> "CfgVehicles" >> vehSDKT72BB >> "displayName")];
 };

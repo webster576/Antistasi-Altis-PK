@@ -991,11 +991,6 @@
         <English>T-72</English>
         <Russian>T-72</Russian>
       </Key>
-      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_t72bb">
-        <Original>T-72 RA</Original>
-        <English>T-72 RA</English>
-        <Russian>T-72 ДЗ</Russian>
-      </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_2s1">
         <Original>2S1 Carnation</Original>
         <English>2S1 Carnation</English>
