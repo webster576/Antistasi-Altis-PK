@@ -3860,6 +3860,66 @@
         <Original>Buy Air Vehicle</Original>
         <Russian>Купить авиатехнику</Russian>
       </Key>
+      <Key ID="STR_antistasi_fast_travel_groups_commanded_by_player">
+        <Original>You cannot Fast Travel groups commanded by players</Original>
+        <Russian>Вы не можете быстро перемещать группы, управляемые игроками</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_while_controlling_ai">
+        <Original>You cannot Fast Travel while you are controlling AI</Original>
+        <Russian>Вы не можете быстро перемещаться пока управляете AI</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_jailed">
+        <Original>Nope. Not happening.</Original>
+        <Russian>Иш ты какой хитрый! Посиди пока, отдохни.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_enemies_near_group">
+        <Original>You cannot Fast Travel with enemies near the group</Original>
+        <Russian>Быстрое перемещение невозможно пока рядом с группой находятся враги</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_vehicle_drivers">
+        <Original>You cannot Fast Travel if you don't have a driver in all your vehicles or your vehicles are damaged and cannot move or your group is in a boat</Original>
+        <Russian>Быстрое перемещение невозможно, если в каком-либо из ваших транспортных средств нет водителя. Либо одно из ваших транспортных средств повреждено настолько, что не может передвигаться. Вы также не можете быстро перемещаться находясь в лодке.</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_zone_click">
+        <Original>Click on the zone you want to travel</Original>
+        <Russian>Выберите точку, в которую вы бы хотели переместиться</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_allowed_to_airbase_and_hq">
+        <Original>Player groups are only allowed to Fast Travel to HQ or Airbases</Original>
+        <Russian>Группам с игроками разрещено быстро перемещаться только на базу либо в аэропорт, находящийся под нашим контролем</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_enemy_controlled_zone">
+        <Original>You cannot Fast Travel to an enemy controlled zone</Original>
+        <Russian>Вы не можете быстро переместиться на точку, находящуюся под контролем врага</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_area_under_attack">
+        <Original>You cannot Fast Travel to an area under attack or with enemies in the surrounding</Original>
+        <Russian>Вы не можете быстро переместиться на точку, находящуюся под атакой или с врагами поблизости</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_traveling">
+        <Original>Fast traveling, travel time: %1s , please wait</Original>
+        <Russian>Быстрое перемещение, время до разрыва пространственно временного континума: %1s , пожалуйста подождите</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_moving_group">
+        <Original>Moving group %1 to destination</Original>
+        <Russian>Перемещение группы %1 на позицию</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_player_wrong_destination">
+        <Original>%1 Fast Travel has been cancelled because some player has boarded their vehicle and the destination is not HQ or an Airbase</Original>
+        <Russian>%1 Быстрое перемещение было отменено потому, что один из игроков попытался сесть в транспорт, который перемещался не на базу либо в аэропорт</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_arrived">
+        <Original>You arrived to destination</Original>
+        <Russian>Вы прибыли в место назначения</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_group_arrived">
+        <Original>Group %1 arrived to destination</Original>
+        <Russian>Группа %1 прибыла в место назначения</Russian>
+      </Key>
+      <Key ID="STR_antistasi_fast_travel_zone_under_our_control">
+        <Original>You must click near marker under your control</Original>
+        <Russian>Выберите зону, которая находится под нашим контролем</Russian>
+      </Key>
     </Container>
   </Package>
 </Project>
