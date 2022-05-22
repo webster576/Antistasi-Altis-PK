@@ -177,14 +177,14 @@ class Params
         title = "Should Guided Launchers become unlocked?";
         values[] = {9999,1,0};
         texts[] = {"Default (No)","Yes","No"};
-        default = 9999;
+        default = 1;
     };
     class allowUnlockedExplosives
     {
         title = "Should Explosives become unlocked?";
         values[] = {9999,1,0};
         texts[] = {"Default (No)","Yes","No"};
-        default = 9999;
+        default = 1;
     };
     class startWithLongRangeRadio
     {
