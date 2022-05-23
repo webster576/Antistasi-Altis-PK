@@ -784,6 +784,17 @@ class mil_vehicles {
 			h = 0.0560125 * safezoneH;
 			action = "closeDialog 0; [] spawn A3A_fnc_buyMilTanks;";
 		};
+		class HQ_button_artillery: RscButton
+		{
+			idc = -1;
+			text = $STR_antistasi_dialogs_vehicle_purchase_military_artillery_text;
+			tooltip = $STR_antistasi_dialogs_vehicle_purchase_military_artillery_tooltip;
+			x = 0.482498 * safezoneW + safezoneX;
+			y = 0.514003 * safezoneH + safezoneY;
+			w = 0.175015 * safezoneW;
+			h = 0.0560125 * safezoneH;
+			action = "closeDialog 0; [] spawn A3A_fnc_buyMilArtillery;";
+		};
 	}
 }
 class mil_vehicle_support {
@@ -1298,6 +1309,81 @@ class mil_vehicle_tanks {
 			w = 0.175015 * safezoneW;
 			h = 0.0560125 * safezoneH;
 			action = "closeDialog 0;nul = [vehSDKT72BA] spawn A3A_fnc_addFIAveh;";
+		};
+	};
+}
+class mil_vehicle_artillery {
+	idd=100;
+	movingenable=false;
+
+	class controls {
+		class HQ_box: BOX
+		{
+			idc = -1;
+			text = $STR_antistasi_dialogs_generic_box_text;
+			x = 0.244979 * safezoneW + safezoneX;
+			y = 0.223941 * safezoneH + safezoneY;
+			w = 0.445038 * safezoneW;
+			h = 0.292103 * safezoneH;
+		};
+		class HQ_frame: RscFrame
+		{
+			idc = -1;
+			text = $STR_antistasi_dialogs_vehicle_purchase_military_text;
+			x = 0.254979 * safezoneW + safezoneX;
+			y = 0.233941 * safezoneH + safezoneY;
+			w = 0.425038 * safezoneW;
+			h = 0.262103 * safezoneH;
+		};
+		class HQ_button_back: RscButton
+		{
+			idc = -1;
+			text = $STR_antistasi_dialogs_generic_button_back_text;
+			x = 0.61 * safezoneW + safezoneX;
+			y = 0.251941 * safezoneH + safezoneY;
+			w = 0.06 * safezoneW;//0.175015
+			h = 0.05 * safezoneH;
+			action = "closeDialog 0; nul = createDialog ""mil_vehicles"";";
+		};
+		class HQ_button_mortar_hilux: RscButton
+		{
+			idc = 101;
+			text = $STR_antistasi_btn_mortar_hilux;
+			x = 0.272481 * safezoneW + safezoneX;
+			y = 0.317959 * safezoneH + safezoneY;
+			w = 0.175015 * safezoneW;
+			h = 0.0560125 * safezoneH;
+			action = "closedialog 0; nul = [vehSDKHpodnos] spawn A3A_fnc_addFIAveh";
+		};
+		class HQ_button_2a18m: RscButton
+		{
+			idc = 102;
+			text = $STR_antistasi_btn_2a18m;
+			x = 0.482498 * safezoneW + safezoneX;
+			y = 0.317959 * safezoneH + safezoneY;
+			w = 0.175015 * safezoneW;
+			h = 0.0560125 * safezoneH;
+			action = "closedialog 0; nul = [SDKD30] spawn A3A_fnc_addFIAveh";
+		};
+		class HQ_button_2s1: RscButton
+		{
+			idc = 103;
+			text = $STR_antistasi_btn_2s1;
+			x = 0.272481 * safezoneW + safezoneX;
+			y = 0.415981 * safezoneH + safezoneY;
+			w = 0.175015 * safezoneW;
+			h = 0.0560125 * safezoneH;
+			action = "closeDialog 0;nul = [vehSDK2S1] spawn A3A_fnc_addFIAveh;";
+		};
+		class HQ_button_bm21: RscButton
+		{
+			idc = 104;
+			text = $STR_antistasi_btn_bm21;
+			x = 0.482498 * safezoneW + safezoneX;
+			y = 0.415981 * safezoneH + safezoneY;
+			w = 0.175015 * safezoneW;
+			h = 0.0560125 * safezoneH;
+			action = "closeDialog 0;nul = [vehSDKBM21] spawn A3A_fnc_addFIAveh;";
 		};
 	};
 }

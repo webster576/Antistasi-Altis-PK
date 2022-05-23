@@ -278,6 +278,7 @@ class A3A
         class buyMilArmored {};
         class buyMilStatic {};
         class buyMilTanks {};
+        class buyMilArtillery {};
         class clearForest {};
         class createDialog_setParams {};
         class createDialog_shouldLoadPersonalSave {};

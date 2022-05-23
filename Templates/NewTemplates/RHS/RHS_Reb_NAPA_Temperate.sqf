@@ -38,7 +38,11 @@
 ["vehicleM60A3", "CUP_I_M60A3_RACS"] call _fnc_saveToTemplate;
 ["vehicleT72BA", "CUP_I_T72_NAPA"] call _fnc_saveToTemplate;
 
+["vehicleHpodnos", "CUP_O_Hilux_podnos_TK_INS"] call _fnc_saveToTemplate;
+["staticD30", "rhs_D30_vdv"] call _fnc_saveToTemplate;
 ["vehicle2S1", "rhsgref_ins_g_2s1"] call _fnc_saveToTemplate;
+["vehicleBM21", "CUP_O_BM21_SLA"] call _fnc_saveToTemplate;
+
 ["vehicleBoat", "I_C_Boat_Transport_02_F"] call _fnc_saveToTemplate;
 
 ["vehicleMi8", "rhsgref_ins_g_Mi8amt"] call _fnc_saveToTemplate;
