@@ -952,10 +952,20 @@
         <English>UAZ SPG-9</English>
         <Russian>УАЗ с СПГ-9</Russian>
       </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_uaz_metis">
+        <Original>UAZ Metis</Original>
+        <English>UAZ Metis</English>
+        <Russian>УАЗ с Метис</Russian>
+      </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_gaz66_zu23">
         <Original>GAZ 66 ZSU-23</Original>
         <English>GAZ 66 ZSU-23</English>
         <Russian>ГАЗ 66 с ЗСУ-23-2</Russian>
+      </Key>
+      <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_offroad_uaz_djigit">
+        <Original>UAZ Djigit</Original>
+        <English>UAZ Djigit</English>
+        <Russian>УАЗ с Джигит</Russian>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_mil_armored_btr80">
         <Original>BTR-80</Original>

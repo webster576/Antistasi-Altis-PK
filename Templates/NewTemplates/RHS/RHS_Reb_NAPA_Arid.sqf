@@ -11,10 +11,14 @@
 //this lines determines basic vehicles, the lightest kind available. -- Example: ["vehiclesBasic", ["B_Quadbike_01_F"]] -- Array, can contain multiple assets
 ["vehicleBasic", "I_G_Quadbike_01_F"] call _fnc_saveToTemplate;
 ["vehicleLightUnarmed", "rhsgref_ins_g_uaz_open"] call _fnc_saveToTemplate;
-["vehicleLightTruck", "rhsgref_ins_g_gaz66o"] call _fnc_saveToTemplate;
 ["vehicleLightArmed", "rhsgref_ins_g_uaz_dshkm_chdkz"] call _fnc_saveToTemplate;
 ["vehicleGL", "rhsgref_ins_g_uaz_ags"] call _fnc_saveToTemplate;
 ["vehicleAT", "rhsgref_ins_g_uaz_spg9"] call _fnc_saveToTemplate;
+["vehicleATМ", "CUP_O_UAZ_METIS_SLA"] call _fnc_saveToTemplate;
+["vehicleAAD", "CUP_O_UAZ_AA_SLA"] call _fnc_saveToTemplate;
+["vehicleAA", "rhsgref_ins_g_gaz66_zu23"] call _fnc_saveToTemplate;
+
+["vehicleLightTruck", "rhsgref_ins_g_gaz66o"] call _fnc_saveToTemplate;
 
 ["vehicleMediumTruck", "rhsgref_ins_g_zil131_flatbed_cover"] call _fnc_saveToTemplate;
 ["vehicleTruck", "rhsgref_ins_g_ural"] call _fnc_saveToTemplate;
@@ -24,7 +28,6 @@
 ["vehicleRepair", "rhsgref_ins_g_gaz66_repair"] call _fnc_saveToTemplate;
 ["vehicleHealTruck", "rhsgref_ins_g_gaz66_ap2"] call _fnc_saveToTemplate;
 ["vehicleCarrierTruck", "rhssaf_army_kraz255b1_pmp"] call _fnc_saveToTemplate;
-["vehicleAA", "rhsgref_ins_g_gaz66_zu23"] call _fnc_saveToTemplate;
 ["vehicleBTR80", "rhs_btr80_vv"] call _fnc_saveToTemplate;
 
 ["vehicleATGM", "rhsgref_BRDM2_ATGM_ins_g"] call _fnc_saveToTemplate;
