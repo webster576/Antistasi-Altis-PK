@@ -246,3 +246,5 @@ else
 	[player] call A3A_fnc_dress;
 	if (A3A_hasACE) then {[] call A3A_fnc_ACEpvpReDress};
 	};
+
+player enableStamina false;
