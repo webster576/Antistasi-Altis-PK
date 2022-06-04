@@ -481,17 +481,54 @@ if (_side isEqualTo independent) then {
 
 	vehSDKBike = _faction getVariable "vehicleBasic";
 	vehSDKLightArmed = _faction getVariable "vehicleLightArmed";
+	vehSDKLightTruck = _faction getVariable "vehicleLightTruck";
+	vehSDKMediumTruck = _faction getVariable "vehicleMediumTruck";
+	vehSDKHeavyTruck = _faction getVariable "vehicleHeavyTruck";
 	vehSDKAT = _faction getVariable "vehicleAT";
+	vehSDKATM = _faction getVariable "vehicleATМ";
+	vehSDKGL = _faction getVariable "vehicleGL";
+	vehSDKATGM = _faction getVariable "vehicleATGM";
+	vehSDKBTR80 = _faction getVariable "vehicleBTR80";
+	vehSDKBMD = _faction getVariable "vehicleBMD";
+	vehSDKBMP = _faction getVariable "vehicleBMP";
+	vehSDKBTR80A = _faction getVariable "vehicleBTR80A";
+	vehSDKZSU = _faction getVariable "vehicleZSU";
+
+	vehSDKT3485 = _faction getVariable "vehicleT3485";
+    vehSDKT55 = _faction getVariable "vehicleT55";
+    vehSDKM60A3 = _faction getVariable "vehicleM60A3";
+	vehSDKT72BA = _faction getVariable "vehicleT72BA";
+
+	vehSDKHpodnos = _faction getVariable "vehicleHpodnos";
+    SDKD30 = _faction getVariable "staticD30";
+    vehSDK2S1 = _faction getVariable "vehicle2S1";
+	vehSDKBM21 = _faction getVariable "vehicleBM21";
+
 	vehSDKAA = _faction getVariable "vehicleAA";
+	vehSDKAAD = _faction getVariable "vehicleAAD";
 	vehSDKLightUnarmed = _faction getVariable "vehicleLightUnarmed";
 	vehSDKTruck = _faction getVariable "vehicleTruck";
+	vehSDKFuel = _faction getVariable "vehicleFuelTruck";
+	vehSDKAmmo = _faction getVariable "vehicleAmmoTruck";
+	vehSDKHeal = _faction getVariable "vehicleHealTruck";
+	vehSDKCarrier = _faction getVariable "vehicleCarrierTruck";
+	vehSDKHeliMi8 = _faction getVariable "vehicleMi8";
+	vehSDKHeliMi8MT = _faction getVariable "vehicleMi8MT";
+	vehSDKHeliMi24D = _faction getVariable "vehicleMi24D";
 	vehSDKPlane = _faction getVariable "vehiclePlane";
+	vehSDKPlaneL39 = _faction getVariable "vehicleL39";
+	vehSDKPlaneSu25 = _faction getVariable "vehicleSu25";
+	vehSDKPlaneMig29S = _faction getVariable "vehicleMig29S";
 	vehSDKBoat = _faction getVariable "vehicleBoat";
 	vehSDKRepair = _faction getVariable "vehicleRepair";
 
 	SDKMGStatic = _faction getVariable "staticMG";
+	SDKMGStatic1 = _faction getVariable "staticMG1";
+	SDKGLStatic = _faction getVariable "staticGL";
 	staticATteamPlayer = _faction getVariable "staticAT";
+	SDKATStatic = _faction getVariable "staticAT1";
 	staticAAteamPlayer = _faction getVariable "staticAA";
+	SDKAAStatic = _faction getVariable "staticAA1";
 	SDKMortar = _faction getVariable "staticMortar";
 	SDKMortarHEMag = _faction getVariable "staticMortarMagHE";
 	SDKMortarSmokeMag = _faction getVariable "staticMortarMagSmoke";
